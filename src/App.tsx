@@ -12,12 +12,12 @@ function App() {
 			className="desktop:w-screen desktop:flex desktop:flex-row-reverse justify-center items-end gap-10 p-5">
 			<img
 				className="w-[30%] col-start-2 hidden desktop:block"
-				src="/image-hero-desktop.png"
+				src="image-hero-desktop.png"
 				alt="cool illustration showing a user with a laptop"
 			/>
 			<img
 				className="w-full desktop:hidden"
-				src="/image-hero-mobile.png"
+				src="image-hero-mobile.png"
 				alt="cool illustration showing a user with a laptop"
 			/>
 			<article
@@ -38,15 +38,15 @@ function App() {
 					className="w-[95%] max-w-[500px] self-center flex justify-between items-center my-10 desktop:self-start mt-20 mb-0">
 					<img
 						width={80}
-						src="/client-databiz.svg"
+						src="client-databiz.svg"
 						alt="our client databiz's logo"
 					/>
 					<img
 						width={80}
-						src="/client-audiophile.svg"
+						src="client-audiophile.svg"
 						alt="our client audiophile's logo"
 					/>
-					<img width={80} src="/client-meet.svg" alt="our client meet's logo" />
+					<img width={80} src="client-meet.svg" alt="our client meet's logo" />
 					<img
 						width={80}
 						src="client-maker.svg"

@@ -6,19 +6,19 @@ function MobileNav() {
   return (
     <>
       <nav className="w-100 flex items-center justify-between p-8 desktop:hidden">
-        <img src="/logo.svg" alt="snap logo"/>
-        <button onClick={() => setOpen(true)} id="open"><img src="/icon-menu.svg" alt="open menu"/></button>
+        <img src="logo.svg" alt="snap logo"/>
+        <button onClick={() => setOpen(true)} id="open"><img src="icon-menu.svg" alt="open menu"/></button>
         <span id="nav" className={open ? 'flex flex-col items-start gap-10 bg-almost-white h-full w-3/5 absolute top-0 right-0 z-10 p-8' : 'flex-col items-start gap-10 bg-almost-white h-full w-3/5 absolute top-0 right-0 z-10 p-8 hidden'}>
-          <button onClick={() => setOpen(false)} id="close" className={open ? "self-end" : "self-end hidden"}><img src="/icon-close-menu.svg" alt="close menu"/></button>
+          <button onClick={() => setOpen(false)} id="close" className={open ? "self-end" : "self-end hidden"}><img src="icon-close-menu.svg" alt="close menu"/></button>
           <ul className="flex flex-col gap-5">
             <li className="pr-10">
               <details>
                 <summary className="text-[14px] text-medium-gray font-bold">Features</summary>
                 <ul className="rounded-lg p-5 w-max">
-                  <li className="flex items-center text-[14px] text-medium-gray font-bold pt-2 pb-2"><img className="w-8 h-5 pr-3" src="/icon-todo.svg" alt="todo icon"/> Todo List</li>
-                  <li className="flex items-center text-[14px] text-medium-gray font-bold pt-2 pb-2"><img className="w-8 h-5 pr-3" src="/icon-calendar.svg" alt="calendar icon"/> Calender</li>
-                  <li className="flex items-center text-[14px] text-medium-gray font-bold pt-2 pb-2"><img className="w-8 h-5 pr-3" src="/icon-reminders.svg" alt="reminder icon"/> Reminders</li>
-                  <li className="flex items-center text-[14px] text-medium-gray font-bold pt-2 pb-2"><img className="w-8 h-5 pr-3" src="/icon-planning.svg" alt="planning icon"/> Planning</li>
+                  <li className="flex items-center text-[14px] text-medium-gray font-bold pt-2 pb-2"><img className="w-8 h-5 pr-3" src="icon-todo.svg" alt="todo icon"/> Todo List</li>
+                  <li className="flex items-center text-[14px] text-medium-gray font-bold pt-2 pb-2"><img className="w-8 h-5 pr-3" src="icon-calendar.svg" alt="calendar icon"/> Calender</li>
+                  <li className="flex items-center text-[14px] text-medium-gray font-bold pt-2 pb-2"><img className="w-8 h-5 pr-3" src="icon-reminders.svg" alt="reminder icon"/> Reminders</li>
+                  <li className="flex items-center text-[14px] text-medium-gray font-bold pt-2 pb-2"><img className="w-8 h-5 pr-3" src="icon-planning.svg" alt="planning icon"/> Planning</li>
                 </ul>
               </details>
             </li>
